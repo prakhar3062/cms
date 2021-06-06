@@ -1,0 +1,61 @@
+{
+    "packages": [
+        {
+            "name": "copyleaks/php-plagiarism-checker",
+            "version": "v3.0.1",
+            "version_normalized": "3.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Copyleaks/PHP-Plagiarism-Checker.git",
+                "reference": "cad9a2565dd3184817f0f4db91fd03524428e51e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Copyleaks/PHP-Plagiarism-Checker/zipball/cad9a2565dd3184817f0f4db91fd03524428e51e",
+                "reference": "cad9a2565dd3184817f0f4db91fd03524428e51e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "time": "2021-03-29T09:20:55+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "autoload.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Copyleaks ltd",
+                    "email": "support@copyleaks.com",
+                    "homepage": "https://copyleaks.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Copyleaks detects online plagiarism and checks content distribution. Use Copyleaks to find out if textual content is original and where it has been used before. This package shows how to integrate with the Copyleaks cloud to search for copyright infringement.",
+            "homepage": "https://api.copyleaks.com",
+            "keywords": [
+                "Copyleaks",
+                "checker",
+                "copyrights",
+                "education",
+                "infringement",
+                "plagiarism",
+                "publisher"
+            ],
+            "support": {
+                "issues": "https://github.com/Copyleaks/PHP-Plagiarism-Checker/issues",
+                "source": "https://github.com/Copyleaks/PHP-Plagiarism-Checker/tree/v3.0.1"
+            },
+            "install-path": "../copyleaks/php-plagiarism-checker"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
